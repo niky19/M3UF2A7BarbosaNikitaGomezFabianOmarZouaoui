@@ -1,5 +1,10 @@
 fun main(){
 }
+
+/**
+ *
+ */
+
 val grup = arrayOf("Niki", "Omar", "Fabian")
 fun quiEsIntegrantDAquestGrup(num:Int):String {
     var result = ""
