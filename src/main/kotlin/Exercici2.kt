@@ -1,3 +1,10 @@
+/*
+Escriu una funció anomenada “calcularIVA” a la que se li passa un preu, un
+tipus d’IVA i la data de la compra i retorna el preu amb l’IVA aplicat. El tipus
+d’IVA pot ser General, Reduït, Superreduït o Exempt. El percentatge a aplicar
+és el vigent en la data de compra i el podem trobar en aquesta taula:
+ */
+
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -10,10 +17,26 @@ enum class TipusIVA(val dataIniciVigencia: Date, val preuGeneral: Double, val pr
     JULIOL_2012(parseDate("15-07-2012"), 0.21, 0.1, 0.04, 0.0)
 }
 
+/**
+ * @author Omar
+ * @since 13/12/2023
+ * ## Que fa la funció?
+ * la funció utilitza el métode parseDate per a fer mes facil la utilització de dates
+ * @param dateString: String a formatear en dia, més i any
+ * @return un tipus Date formatejat en dia, mes i any
+ **/
 fun parseDate(dateString: String): Date {
     return SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).parse(dateString)
 }
-
+/**
+ * @author Omar
+ * @since 13/12/2023
+ * ## Que fa la funció?
+ * Calcula el preu amb IVA sumant el preu base amb el producte del preu i el IVA a la taula del corresponent any
+ * @param preu: Preu base amb el que operem
+ * @param tipusIVA: el tipus de IVA que es fará servir per ser multiplicat amb el preu
+ * @return un INT amb el preu amb IVA
+ **/
 fun calcularIVA(preu: Double, tipusIVA: TipusIVA): Double {
     return preu * tipusIVA.preuGeneral
 }
