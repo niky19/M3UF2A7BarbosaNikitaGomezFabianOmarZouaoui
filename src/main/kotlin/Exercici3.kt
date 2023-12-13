@@ -3,7 +3,7 @@
 entre 1 i 3999 i retorni un String amb el seu valor en números romans.
  */
 
-//TODO("Interaccion con el usuario")
+//TODO("mejorar la interfaz")
 data class RomanNumber(val arabic: Int, val roman: String)
 
 fun roman(num: Int): String {

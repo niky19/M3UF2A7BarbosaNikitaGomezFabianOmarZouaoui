@@ -1,3 +1,10 @@
+/*
+Escriu una funció anomenada “calcularIVA” a la que se li passa un preu, un
+tipus d’IVA i la data de la compra i retorna el preu amb l’IVA aplicat. El tipus
+d’IVA pot ser General, Reduït, Superreduït o Exempt. El percentatge a aplicar
+és el vigent en la data de compra i el podem trobar en aquesta taula:
+ */
+
 import java.text.SimpleDateFormat
 import java.util.*
 
