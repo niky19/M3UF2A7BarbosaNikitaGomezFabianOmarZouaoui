@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b864987-1cf7-4897-bc91-9f8fa4d26a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7b864987-1cf7-4897-bc91-9f8fa4d26a85" name="Changes" comment="build.gradle.kts con el jUnit test configurado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Excercici5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Excercici5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercici1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercici1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,17 +57,28 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ITB/Curs 2023-2024/M03-Programacio/Git",
+    "last_opened_file_path": "/media/sjo/KIOXIA/ITB/Curs 2023-2024/M03-Programacio/Git",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Git" />
@@ -79,11 +110,55 @@
       <option name="presentableId" value="Default" />
       <updated>1702307378273</updated>
       <workItem from="1702307379295" duration="4000" />
-      <workItem from="1702400101025" duration="2541000" />
+      <workItem from="1702400101025" duration="10105000" />
     </task>
+    <task id="LOCAL-00001" summary="Ejercicio 1 con la instalacion del Dokka y el JUnit pero aun sin implementar la documentacion ni el sistema de Test">
+      <option name="closed" value="true" />
+      <created>1702403353742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702403353742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="EXcercicis 1 i 5 completats sense documentació i test">
+      <option name="closed" value="true" />
+      <created>1702406562030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702406562030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="EXcercici 5 completat sense documentació ni test">
+      <option name="closed" value="true" />
+      <created>1702408567226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702408567226</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio 1 con la instalacion del Dokka y el JUnit pero aun sin implementar la documentacion ni el sistema de Test" />
+    <MESSAGE value="EXcercicis 1 i 5 completats sense documentació i test" />
+    <MESSAGE value="EXcercici 5 completat sense documentació ni test" />
+    <MESSAGE value="Exercici2" />
+    <MESSAGE value="build.gradle.kts con el jUnit test configurado" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle.kts con el jUnit test configurado" />
   </component>
 </project>
