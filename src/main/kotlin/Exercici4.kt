@@ -26,6 +26,7 @@ fun validarSuperusuari(scan: Scanner, passwordCorrecte: String): String {
             println("Intent no satisfactori, introdueixi de nou. Li queden $intents intents.")
         }
 
+
     } while (intents > 0)
 
     return "Has esgotat tots els intents. Accés denegat."
